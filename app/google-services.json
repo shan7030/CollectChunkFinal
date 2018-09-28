@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "432344873436",
+    "firebase_url": "https://collectchunk.firebaseio.com",
+    "project_id": "collectchunk",
+    "storage_bucket": "collectchunk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432344873436:android:eeaec9205d21cb1d",
+        "android_client_info": {
+          "package_name": "com.example.android.logindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432344873436-5vste2s2pfhdr8dpr1n5g4gf0v4ara9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaDNALFzF5NWe1jtFcVOUlH8vJg7HdqDg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

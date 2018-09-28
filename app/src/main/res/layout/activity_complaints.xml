@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="com.example.android.logindemo.Complaints">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/blackborder"
+            android:id="@+id/datetime"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Enter approx. amount of Garbage:"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#000000"
+
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/weigthofwaste"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.3"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:hint=" In kgs. or Enter High/Medium/Low"
+            android:background="@drawable/blackborder"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            />
+        <ImageView
+            android:id="@+id/Wastephoto"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:maxHeight="30dp"
+            android:maxWidth="30dp"
+            app:srcCompat="@drawable/defaultprofile"
+            android:text="Please Attach a photo"/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:padding="10dp"
+             />
+        <Button
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center"
+            android:text="Select the Location"
+            android:onClick="gotomaps"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="SUBMIT"
+            android:layout_marginRight="20dp"
+            android:onClick="savedata"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

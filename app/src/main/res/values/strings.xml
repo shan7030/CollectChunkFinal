@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CollectChunk</string>
+    <string name="daily">DAILY GARBAGE COLLECTION</string>
+    <string name="Collect_on_demand">COLLECTION OF WASTE ON DEMAND</string>
+    <string name="reportacomplaint">REPORT A COMPLAINT</string>
+    <string name="Tickif">TICK IF DAILY E-TRUCK VISITED YOUR SITE</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

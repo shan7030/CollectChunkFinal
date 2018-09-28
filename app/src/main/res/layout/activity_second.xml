@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="@drawable/gar2"
+    tools:context="com.example.android.logindemo.SecondActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Button_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="66dp"
+            android:gravity="center"
+            android:onClick="selectaddress"
+            android:text="SELECT YOUR ADDRESS BY CLICKING HERE!" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Button_1"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/buttonborder"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:textStyle="bold" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:layout_marginRight="10dp"
+        android:text="SUBMIT"
+        android:onClick="opendailyactivity"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
